@@ -1,0 +1,25 @@
+{
+  "name": "bulb.js",
+  "version": "1.0.0",
+  "description": "algorithm library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunwarAbhay/algo.js.git"
+  },
+  "keywords": [
+    "algorithm",
+    "data-structure",
+    "javascript",
+    "node-js"
+  ],
+  "author": "Kunwar Abhay Rai <kunwarabhayrai12345@gmail.com> (https://github.com/kunwarAbhay)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunwarAbhay/algo.js/issues"
+  },
+  "homepage": "https://github.com/kunwarAbhay/algo.js#readme"
+}
