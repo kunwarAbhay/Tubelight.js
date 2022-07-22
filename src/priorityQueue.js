@@ -1,5 +1,3 @@
-const { priorityQueue } = require(".");
-
 class PriorityQueue {
   /**
    * This function will be used to decide the priority between two object
