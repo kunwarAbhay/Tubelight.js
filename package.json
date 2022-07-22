@@ -1,7 +1,7 @@
 {
-  "name": "bulb.js",
+  "name": "tubelight",
   "version": "1.0.0",
-  "description": "algorithm library",
+  "description": "The most commonly used Data Structure library",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,5 @@
     "node-js"
   ],
   "author": "Kunwar Abhay Rai <kunwarabhayrai12345@gmail.com> (https://github.com/kunwarAbhay)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kunwarAbhay/algo.js/issues"
-  },
-  "homepage": "https://github.com/kunwarAbhay/algo.js#readme"
+  "license": "MIT"
 }
