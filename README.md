@@ -1,5 +1,5 @@
 <h1 align="center">⚡Tubelight.js</h1>
-<h3 align="center">A pure javascrpt library providing most common data structures implementation.</h3>
+<h3 align="center">A pure javascript library providing most common data structures implementation.</h3>
 
 ## Table of Contents
 
@@ -53,17 +53,6 @@ stack.push(element);
 stack.pop();
 ```
 
-❄️ IsEmpty : Check if the stack is empty
-
-```js
-/**
- * True if the stack is empty otherwise return false
- * @return {Boolean}
- */
-
-stack.isEmpty();
-```
-
 ❄️ Peek: Get the value of the top element without removing it
 
 ```js
@@ -73,6 +62,17 @@ stack.isEmpty();
  */
 
 stack.peek();
+```
+
+❄️ IsEmpty : Check if the stack is empty
+
+```js
+/**
+ * True if the stack is empty otherwise return false
+ * @return {Boolean}
+ */
+
+stack.isEmpty();
 ```
 
 ### ⏳ Time Complexity :
@@ -85,11 +85,67 @@ stack.peek();
 
 ## 🪨 Queue
 
+Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
+
 ```js
 const Tubelight = require("tubelight");
 
 const queue = new Tubelight.Queue();
 ```
+
+### ⚒️ Operations that can be performed on Stack :
+
+❄️ Enqueue: Add an element to the end of the queue
+
+```js
+/**
+ * add element to the end of the queue
+ * @param {Object} element
+ */
+
+queue.enqueue(element);
+```
+
+❄️ Dequeue: Remove an element from the front of the queue
+
+```js
+/**
+ * remove element from the front of the queue
+ * @return {Object} element
+ */
+
+queue.dequeue(element);
+```
+
+❄️ front: Get the value of the front of the queue without removing it
+
+```js
+/**
+ * return front element from the queue with removing it
+ * @return {Object} element
+ */
+
+queue.front();
+```
+
+❄️ IsEmpty: Check if the queue is empty
+
+```js
+/**
+ * return true if queue is empty otherwise false
+ * @return {Boolean}
+ */
+
+queue.isEmpty();
+```
+
+### ⏳ Time Complexity :
+
+❄️ Enqueue, dequeue, peek, isEmpty take O(1) time.
+
+### 🗑️ Space Complexity :
+
+❄️ Queue requires O(n) space complexity where n is no. of elements in queue.
 
 ## 🪨 Priority Queue
 
