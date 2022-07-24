@@ -19,7 +19,7 @@ Install Tubelight with npm
 npm install tubelight
 ```
 
-## 💥 Stack
+## 🪨 Stack
 
 A stack is a linear data structure that follows the principle of Last In First Out (LIFO).
 
@@ -31,23 +31,23 @@ const stack = new Tubelight.Stack();
 
 ### ⚒️ Operations that can be performed on Stack :
 
-🪨 Push : Add an element to the top of a stack
+❄️ Push : Add an element to the top of a stack
 
-🪨 Pop : Remove an element from the top of a stack
+❄️ Pop : Remove an element from the top of a stack
 
-🪨 IsEmpty : Check if the stack is empty
+❄️ IsEmpty : Check if the stack is empty
 
-🪨 Peek: Get the value of the top element without removing it
+❄️ Peek: Get the value of the top element without removing it
 
 ### ⏳ Time Complexity :
 
-🕑 Push, pop, IsEmpty & peek Operations take O(1) time.
+❄️ Push, pop, IsEmpty & peek Operations take O(1) time.
 
 ### 🗑️ Space Complexity :
 
-💼 Stack requires O(n) Space Complexity where n is no. of elements in stack.
+❄️ Stack requires O(n) Space Complexity where n is no. of elements in stack.
 
-## 💥 Queue
+## 🪨 Queue
 
 ```js
 const Tubelight = require("tubelight");
@@ -55,7 +55,7 @@ const Tubelight = require("tubelight");
 const queue = new Tubelight.Queue();
 ```
 
-## 💥 Priority Queue
+## 🪨 Priority Queue
 
 ```js
 const Tubelight = require("tubelight");
@@ -63,7 +63,7 @@ const Tubelight = require("tubelight");
 const priorityQueue = new Tubelight.PriorityQueue();
 ```
 
-## 💥 Disjoint Set
+## 🪨 Disjoint Set
 
 ```js
 const Tubelight = require("tubelight");
