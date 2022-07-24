@@ -1,5 +1,5 @@
 <h1 align="center">⚡Tubelight.js</h1>
-<h3 align="center">A pure javascrpt library providing most common data structures implementation at your tip.</h3>
+<h3 align="center">A pure javascrpt library providing most common data structures implementation.</h3>
 
 ## Table of Contents
 
@@ -33,11 +33,47 @@ const stack = new Tubelight.Stack();
 
 ❄️ Push : Add an element to the top of a stack
 
+```js
+/**
+ * Push element on the top of the stack
+ * @param {Object} element
+ */
+
+stack.push(element);
+```
+
 ❄️ Pop : Remove an element from the top of a stack
+
+```js
+/**
+ * Remove the topmost element from the stack
+ * @return {Object} element
+ */
+
+stack.pop();
+```
 
 ❄️ IsEmpty : Check if the stack is empty
 
+```js
+/**
+ * True if the stack is empty otherwise return false
+ * @return {Boolean}
+ */
+
+stack.isEmpty();
+```
+
 ❄️ Peek: Get the value of the top element without removing it
+
+```js
+/**
+ * return the element at the top of stack without removing it
+ * @return {Object} element
+ */
+
+stack.peek();
+```
 
 ### ⏳ Time Complexity :
 
