@@ -13,7 +13,7 @@
 
 ### 👉 Installation
 
-Install Tubelight with npm
+Install Tubelight from npm
 
 ```bash
 npm install tubelight
@@ -209,14 +209,51 @@ priorityQueue.pop();
 
 ### 🗑️ Space Complexity :
 
-❄️ Priority-Queue requires O(n) space
+❄️ Priority-Queue requires O(n) space.
 
 ## 🪨 Disjoint Set
+
+Disjoint set union provides near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set.
 
 ```js
 const Tubelight = require("tubelight");
 
 const disjointSet = new Tubelight.DisjointSet();
 ```
+
+### ⚒️ Operations that can be performed on Stack :
+
+❄️ Union : Combine two subsets into one.
+
+```js
+/**
+ * Union(x, y) combines the set containing element x and set containing element y
+ * @param {Object} x
+ * @param {Object} y
+ */
+
+disjointSet.union(x, y);
+```
+
+❄️ sameSet : Check if two elements belong to the same subset or not.
+
+```js
+/**
+ * check if the set containing element x and set containing element y are same or not
+ * @param {Object} x
+ * @param {Object} y
+ * @returns {Boolean} true if x and y are in same set otherwise false
+ */
+
+disjointSet.sameSet(x, y);
+```
+
+### ⏳ Time Complexity :
+
+❄️ union and sameSet operations acheive almost constant time complexity.Although, the final amortized time complexity is calculated to be O(α(n)).
+
+### 🗑️ Space Complexity :
+
+❄️ Disjoint-Set requires O(n) space.
 
 <!-- 🧱🪨📌⏳⏱️🗑️💼❄️🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
