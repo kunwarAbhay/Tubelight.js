@@ -19,7 +19,7 @@ Install Tubelight from npm
 npm install tubelight
 ```
 
-## 🪨 Stack
+## Stack
 
 A stack is a linear data structure that follows the principle of Last In First Out (LIFO).
 
@@ -83,7 +83,7 @@ stack.isEmpty();
 
 🟢 Stack requires O(n) Space Complexity where n is no. of elements in stack.
 
-## 🪨 Queue
+## Queue
 
 Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
 
@@ -128,7 +128,7 @@ queue.dequeue(element);
 queue.front();
 ```
 
-❄️ IsEmpty: Check if the queue is empty
+🟢 IsEmpty: Check if the queue is empty
 
 ```js
 /**
@@ -141,13 +141,13 @@ queue.isEmpty();
 
 ### ⏳ Time Complexity :
 
-❄️ Enqueue, dequeue, peek, isEmpty take O(1) time.
+🟢 Enqueue, dequeue, peek, isEmpty take O(1) time.
 
 ### 🗑️ Space Complexity :
 
-❄️ Queue requires O(n) space complexity where n is no. of elements in queue.
+🟢 Queue requires O(n) space complexity where n is no. of elements in queue.
 
-## 🪨 Priority Queue
+## Priority Queue
 
 ```js
 const Tubelight = require("tubelight");
@@ -157,7 +157,7 @@ const priorityQueue = new Tubelight.PriorityQueue();
 
 ### ⚒️ Operations that can be performed on Stack :
 
-❄️ Push : Insert an element in priority-queue
+🟢 Push : Insert an element in priority-queue
 
 ```js
 /**
@@ -168,7 +168,7 @@ const priorityQueue = new Tubelight.PriorityQueue();
 priorityQueue.push(element);
 ```
 
-❄️ Pop : Remove the topmost priority element.
+🟢 Pop : Remove the topmost priority element.
 
 ```js
 /**
@@ -179,7 +179,7 @@ priorityQueue.push(element);
 priorityQueue.pop();
 ```
 
-❄️ Top : Get the topmost priority element without removing it.
+🟢 Top : Get the topmost priority element without removing it.
 
 ```js
 /**
@@ -211,7 +211,7 @@ priorityQueue.pop();
 
 🟢 Priority-Queue requires O(n) space.
 
-## 🪨 Disjoint Set
+## Disjoint Set
 
 Disjoint set union provides near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set.
 
@@ -256,4 +256,4 @@ disjointSet.sameSet(x, y);
 
 🟢 Disjoint-Set requires O(n) space.
 
-<!-- 🧱🪨📌⏳⏱️🗑️💼🟢🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
+<!-- 🧱⏳⏱️🗑️💼🟢🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
