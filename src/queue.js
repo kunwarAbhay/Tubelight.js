@@ -9,7 +9,7 @@ class Queue {
    *
    * @param {Object} val , add the val to the end of list
    */
-  push(val) {
+  enqueue(val) {
     this.list.push(val);
   }
 
@@ -17,7 +17,7 @@ class Queue {
    * remove the first element of list
    * @returns {Object} first element
    */
-  pop() {
+  dequeue() {
     return this.list.remove(0);
   }
 
