@@ -31,7 +31,7 @@ const stack = new Tubelight.Stack();
 
 ### ⚒️ Operations that can be performed on Stack :
 
-❄️ Push : Add an element to the top of a stack
+🟢 Push : Add an element to the top of a stack
 
 ```js
 /**
@@ -42,7 +42,7 @@ const stack = new Tubelight.Stack();
 stack.push(element);
 ```
 
-❄️ Pop : Remove an element from the top of a stack
+🟢 Pop : Remove an element from the top of a stack
 
 ```js
 /**
@@ -53,7 +53,7 @@ stack.push(element);
 stack.pop();
 ```
 
-❄️ Peek: Get the value of the top element without removing it
+🟢 Peek: Get the value of the top element without removing it
 
 ```js
 /**
@@ -64,7 +64,7 @@ stack.pop();
 stack.peek();
 ```
 
-❄️ IsEmpty : Check if the stack is empty
+🟢 IsEmpty : Check if the stack is empty
 
 ```js
 /**
@@ -77,11 +77,11 @@ stack.isEmpty();
 
 ### ⏳ Time Complexity :
 
-❄️ Push, pop, IsEmpty & peek Operations take O(1) time.
+🟢 Push, pop, IsEmpty & peek Operations take O(1) time.
 
 ### 🗑️ Space Complexity :
 
-❄️ Stack requires O(n) Space Complexity where n is no. of elements in stack.
+🟢 Stack requires O(n) Space Complexity where n is no. of elements in stack.
 
 ## 🪨 Queue
 
@@ -95,7 +95,7 @@ const queue = new Tubelight.Queue();
 
 ### ⚒️ Operations that can be performed on Stack :
 
-❄️ Enqueue: Add an element to the end of the queue
+🟢 Enqueue: Add an element to the end of the queue
 
 ```js
 /**
@@ -106,7 +106,7 @@ const queue = new Tubelight.Queue();
 queue.enqueue(element);
 ```
 
-❄️ Dequeue: Remove an element from the front of the queue
+🟢 Dequeue: Remove an element from the front of the queue
 
 ```js
 /**
@@ -117,7 +117,7 @@ queue.enqueue(element);
 queue.dequeue(element);
 ```
 
-❄️ front: Get the value of the front of the queue without removing it
+🟢 front: Get the value of the front of the queue without removing it
 
 ```js
 /**
@@ -190,7 +190,7 @@ priorityQueue.pop();
 priorityQueue.top();
 ```
 
-❄️ isEmpty : Check if the priority-queue is empty
+🟢 isEmpty : Check if the priority-queue is empty
 
 ```js
 /**
@@ -203,13 +203,13 @@ priorityQueue.pop();
 
 ### ⏳ Time Complexity :
 
-❄️ push and pop take O(log(n)) time.
+🟢 push and pop take O(log(n)) time.
 
-❄️ top and isEmpty take O(1) time.
+🟢 top and isEmpty take O(1) time.
 
 ### 🗑️ Space Complexity :
 
-❄️ Priority-Queue requires O(n) space.
+🟢 Priority-Queue requires O(n) space.
 
 ## 🪨 Disjoint Set
 
@@ -223,7 +223,7 @@ const disjointSet = new Tubelight.DisjointSet();
 
 ### ⚒️ Operations that can be performed on Stack :
 
-❄️ Union : Combine two subsets into one.
+🟢 Union : Combine two subsets into one.
 
 ```js
 /**
@@ -235,7 +235,7 @@ const disjointSet = new Tubelight.DisjointSet();
 disjointSet.union(x, y);
 ```
 
-❄️ sameSet : Check if two elements belong to the same subset or not.
+🟢 sameSet : Check if two elements belong to the same subset or not.
 
 ```js
 /**
@@ -250,10 +250,10 @@ disjointSet.sameSet(x, y);
 
 ### ⏳ Time Complexity :
 
-❄️ union and sameSet operations acheive almost constant time complexity.Although, the final amortized time complexity is calculated to be O(α(n)).
+🟢 union and sameSet operations acheive almost constant time complexity.Although, the final amortized time complexity is calculated to be O(α(n)).
 
 ### 🗑️ Space Complexity :
 
-❄️ Disjoint-Set requires O(n) space.
+🟢 Disjoint-Set requires O(n) space.
 
-<!-- 🧱🪨📌⏳⏱️🗑️💼❄️🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
+<!-- 🧱🪨📌⏳⏱️🗑️💼🟢🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
