@@ -155,6 +155,62 @@ const Tubelight = require("tubelight");
 const priorityQueue = new Tubelight.PriorityQueue();
 ```
 
+### ⚒️ Operations that can be performed on Stack :
+
+❄️ Push : Insert an element in priority-queue
+
+```js
+/**
+ * insert element in the priority-queue
+ * @param {Object} element
+ */
+
+priorityQueue.push(element);
+```
+
+❄️ Pop : Remove the topmost priority element.
+
+```js
+/**
+ * remove and return the topmost priority element
+ * @return {Object} element
+ */
+
+priorityQueue.pop();
+```
+
+❄️ Top : Get the topmost priority element without removing it.
+
+```js
+/**
+ * return the topmost priority element
+ * @return {Object} element
+ */
+
+priorityQueue.top();
+```
+
+❄️ isEmpty : Check if the priority-queue is empty
+
+```js
+/**
+ * return true if priority-queue is empty otherwise false
+ * @return {Boolean}
+ */
+
+priorityQueue.pop();
+```
+
+### ⏳ Time Complexity :
+
+❄️ push and pop take O(log(n)) time.
+
+❄️ top and isEmpty take O(1) time.
+
+### 🗑️ Space Complexity :
+
+❄️ Priority-Queue requires O(n) space
+
 ## 🪨 Disjoint Set
 
 ```js
