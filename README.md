@@ -93,7 +93,7 @@ const Tubelight = require("tubelight");
 const queue = new Tubelight.Queue();
 ```
 
-### ⚒️ Operations that can be performed on Stack :
+### ⚒️ Operations that can be performed on Queue :
 
 🟢 Enqueue: Add an element to the end of the queue
 
@@ -155,7 +155,7 @@ const Tubelight = require("tubelight");
 const priorityQueue = new Tubelight.PriorityQueue();
 ```
 
-### ⚒️ Operations that can be performed on Stack :
+### ⚒️ Operations that can be performed on Priority-Queue :
 
 🟢 Push : Insert an element in priority-queue
 
@@ -221,7 +221,7 @@ const Tubelight = require("tubelight");
 const disjointSet = new Tubelight.DisjointSet();
 ```
 
-### ⚒️ Operations that can be performed on Stack :
+### ⚒️ Operations that can be performed on Disjoint-Set :
 
 🟢 Union : Combine two subsets into one.
 
@@ -255,5 +255,3 @@ disjointSet.sameSet(x, y);
 ### 🗑️ Space Complexity :
 
 🟢 Disjoint-Set requires O(n) space.
-
-<!-- 🧱⏳⏱️🗑️💼🟢🔥🌀🚫❗❓💯✅❎⏺️➡️⬅️↗️↘️🔴🟢🟡🟠🟨🟧🟩🟦🔺🔻🕐🕑 -->
