@@ -141,7 +141,7 @@ queue.isEmpty();
 
 ### ⏳ Time Complexity :
 
-🔘 Enqueue, dequeue, peek, isEmpty take O(1) time.
+🔘 Enqueue, dequeue, peek, isEmpty take O(1) times.
 
 ### 📦 Space Complexity :
 
