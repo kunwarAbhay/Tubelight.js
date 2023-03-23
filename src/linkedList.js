@@ -1,5 +1,5 @@
 /**
- * create a isolated node
+ * create an isolated node
  * @param {Object} val
  * @returns node
  */
